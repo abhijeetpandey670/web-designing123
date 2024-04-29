@@ -1,0 +1,166 @@
+* {
+    /* star ka use pure page mai margin aur padding lagane ko hota hai*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box sizing border box se ye hota hai ki andar ka contact mai bas padding aur margin use hoga border ki width aur height nahi badegi*/
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* nav pe flex properties lgate hai (jamin mai agar 2 kamare hai aur unko agal bagal lana hai tho  display flex ka use krte hai*/
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    color: #ff2b85;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.banner {
+    background-image: url(../image/abhijeet.jpeg);
+    /* ../(image ko doosre folder mai se lane mai maddat karega*/
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    background: yellow;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 33px;
+    margin: auto;
+    width: 48%;
+    top: 53%;
+    position: relative;
+    /* position property..........background move karega pura bas content nahi (rani)*/
+    top: 53%;
+    box-shadow: 3px 3px 3px red;
+}
+
+.about {
+    text-align: center;
+    padding: 18px 265px;
+}
+
+.about h2 {
+    letter-spacing: 4px;
+    margin-bottom: 11px;
+    font-family: serif;
+    font-size: 31px;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+
+.p {
+    margin-bottom: 21px;
+    line-height: 18px;
+}
+
+.about button {
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    background: pink;
+    margin-top: 19px;
+    height: 43px;
+    width: 193px;
+    color: white;
+}
+.press {
+    background-image: url(../image/abhijeet.jpeg);
+    /* ../(image ko doosre folder mai se lane mai maddat karega*/
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 200px;
+    text-align: center;
+}
+.press h2{
+    font-size: 33px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.press p{
+    margin-top: 220px;
+
+}
+
+.press button{
+    width: 193px;
+    height:43px;
+    margin-top: 19px;
+}
+.team {
+    background-image: url(../image/abhijeet.jpeg);
+    /* ../(image ko doosre folder mai se lane mai maddat karega*/
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 200px;
+    text-align: center;
+}
+.team h2{
+    font-size: 33px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.team p{
+    margin-top: 220px;
+
+}
+
+.team button{
+    width: 193px;
+    height:43px;
+    margin-top: 19px;
+}
+.contact{
+    background: #ff2b85;
+    height: 150px;
+    width: 100%;
+    padding: 100px 200px;
+}
+.contact h2{
+    font-size: 33px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.contact p{
+    margin-top: 76px;
+
+}
+
+.contact button{
+    width: 193px;
+    height:43px;
+    margin-top: 19px;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 250px;
+}
